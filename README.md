@@ -13,6 +13,8 @@ Under the Wi-Fi 6 technical architecture, the attenuation characteristics of the
 
 ## Dataset 1
 Contains 88 data points, with RSS values ranging from -25 dBm to -69 dBm. During compilation, we focused on the mapping relationship between signal strength and distance. Based on an in-depth analysis of signal attenuation patterns, we configured a differentiated number of data points in different distance intervals as needed, while avoiding duplicate data collection. This aims to provide precise data support for basic signal modeling based on a limited number of data points. The convergence result of Dataset 1 is 0.19761086.
+![Dataset 1 Image](data_44n2_2.png)
 
 ## Dataset 2
 This dataset is more comprehensive, containing 200 data points, with the RSS value range expanded to -25 dBm to -75 dBm. In terms of data organization, an equal number of data points are uniformly distributed across each distance interval, significantly enhancing the overall completeness and randomness of the dataset. Data processing employs a refined strategy, optimizing data quality through flexible adjustment of site locations and introducing two-dimensional transformation techniques to uncover latent data features, thereby providing a more detailed and nuanced data perspective and analytical dimension for signal modeling. The convergence result for Dataset 2 is 0.67944986.
+![Dataset 2 Image](data_200_2_1.png)
